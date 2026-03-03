@@ -1,52 +1,58 @@
 {
-    "name": "vscode-stardew-icon-theme",
-    "displayName": "Stardew Icon Theme",
-    "description": "Icons from the game Stardew Valley",
-    "version": "0.0.7",
-    "publisher": "klyap",
+    "name": "vscode-acnh-icon-theme",
+    "displayName": "Animal Crossing New Horizons Icon Theme",
+    "description": "Inventory icons from Animal Crossing: New Horizons",
+    "version": "0.0.1",
+    "publisher": "vikang",
     "engines": {
         "vscode": "^1.20.0"
     },
     "contributes": {
         "iconThemes": [
             {
-                "id": "vscode-stardew-icon-theme",
-                "label": "Stardew Icon Theme",
+                "id": "vscode-acnh-icon-theme",
+                "label": "Animal Crossing New Horizons Icon Theme",
                 "path": "./icons.json"
-            },
-            {
-                "id": "vscode-stardew-icon-theme-autumn",
-                "label": "Stardew Icon Theme - Autumn",
-                "path": "./icons-autumn.json"
-            },
-            {
-                "id": "vscode-stardew-icon-theme-winter",
-                "label": "Stardew Icon Theme - Winter",
-                "path": "./icons-winter.json"
             }
-
         ]
     },
-    "icon": "icons/Spangle.png",
+    "icon": "icons/acnh/Green_Leaf.png",
     "repository": {
 		"type": "git",
-		"url": "https://github.com/klyap/vscode-stardew-icon-theme.git"
+		"url": "https://github.com/Vikang/vscode-acnh-icon-theme.git"
 	},
     "categories": [
         "Themes"
     ],
 	"keywords": [
+		"icon-theme",
+		"file-icons",
+		"folder-icons",
 		"icons",
-        "theme",
-        "pixel",
-        "icon",
-        "cute",
-        "game",
-        "stardew",
-        "valley",
-        "cozy",
-        "cat",
-        "farm"
-    ],
+		"theme",
+		"vscode-icons",
+		"vscode-theme",
+		"animal-crossing",
+		"acnh",
+		"nintendo",
+		"new-horizons",
+		"nook",
+		"isabelle",
+		"villagers",
+		"cute",
+		"kawaii",
+		"cozy",
+		"pastel",
+		"pixel",
+		"colorful",
+		"aesthetic",
+		"fancy",
+		"vscode",
+		"vscode-extension",
+		"customization",
+		"file-explorer",
+		"gaming",
+		"game-theme"
+	],
 	"license": "MIT"
 }
