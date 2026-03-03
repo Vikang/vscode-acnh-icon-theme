@@ -1,44 +1,79 @@
-# VSCode Stardew Icon Theme
+# Animal Crossing: New Horizons Icon Theme for VS Code
 
-A Stardew Valley themed product icon pack!
-Currently for common front-end web development file types
+An Animal Crossing: New Horizons themed icon pack for VS Code!
+Uses inventory sprites from AC:NH to bring your code editor to island life.
 
-<img width="165" alt="Screen Shot 2020-08-31 at 8 26 01 PM" src="https://user-images.githubusercontent.com/7905522/91792254-f5063500-ebc9-11ea-9baa-560540a92613.png">
+## Icon Reference
 
-### Autumn mode:
+| Icon | ACNH Item | File Types |
+|:----:|-----------|------------|
+| <img src="icons/acnh/Green_Leaf.png" width="32"> | Green Leaf | Default (all unmapped files) |
+| <img src="icons/acnh/Coral.png" width="32"> | Coral | `.html`, `.htm` |
+| <img src="icons/acnh/Wand.png" width="32"> | Wand | `.css` |
+| <img src="icons/acnh/Recipe.png" width="32"> | Recipe | `.js`, `.jsx` |
+| <img src="icons/acnh/Fossil.png" width="32"> | Fossil | `.ts`, `.tsx`, `.proto` |
+| <img src="icons/acnh/Money_Bag.png" width="32"> | Money Bag | `.json`, `jsconfig.json`, `tsconfig.json` |
+| <img src="icons/acnh/Book_1.png" width="32"> | Book | `.md`, `.yml`, `.yaml` |
+| <img src="icons/acnh/Turnips.png" width="32"> | Turnips | `.py`, `.pyw` |
+| <img src="icons/acnh/Cherry.png" width="32"> | Cherry | `.rb`, `.erb`, `Gemfile`, `Rakefile` |
+| <img src="icons/acnh/Peach.png" width="32"> | Peach | Images (`.jpg`, `.png`, `.gif`, `.svg`, `.bmp`, `.ico`) |
+| <img src="icons/acnh/Recipe_Bottle.png" width="32"> | Recipe Bottle | `.log`, changelogs |
+| <img src="icons/acnh/Nook_Miles_Ticket.png" width="32"> | Nook Miles Ticket | `.git`, `README` |
+| <img src="icons/acnh/Wasp_Nest.png" width="32"> | Wasp Nest | `.gitignore`, `.babelrc` |
+| <img src="icons/acnh/Pitfall_Seed.png" width="32"> | Pitfall Seed | `.lock`, `.env` files |
+| <img src="icons/acnh/Present_Red.png" width="32"> | Present | `package.json` |
+| <img src="icons/acnh/Tree_Branch.png" width="32"> | Tree Branch | `LICENSE`, `COPYRIGHT` |
+| <img src="icons/acnh/Nugget_Gold.png" width="32"> | Nugget Gold | Test files (`.snap`) |
+| <img src="icons/acnh/Fishing_Rod.png" width="32"> | Fishing Rod | ESLint, TSLint configs |
+| <img src="icons/acnh/Cosmos_Pink.png" width="32"> | Cosmos Pink | Prettier configs |
+| <img src="icons/acnh/Net.png" width="32"> | Net | Jest, Vitest configs |
+| <img src="icons/acnh/Star.png" width="32"> | Star | Apollo config |
+| <img src="icons/acnh/Spider.png" width="32"> | Spider | `.graphql` |
+| <img src="icons/acnh/Axe_Iron.png" width="32"> | Axe Iron | Bazel, VS Code settings, `.sh`, `.bash`, `.zsh` |
+| <img src="icons/acnh/Egg_Wood.png" width="32"> | Egg Wood | Dockerfile, docker-compose |
+| <img src="icons/acnh/Hyacinths_Purple.png" width="32"> | Hyacinths Purple | Fusion config |
+| <img src="icons/acnh/Pale_Chub.png" width="32"> | Pale Chub | Cerberus, `.thrift` |
+| <img src="icons/acnh/Coral.png" width="32"> | Coral | `.editorconfig`, webpack/rollup/vite configs |
+| <img src="icons/acnh/Clump_of_Weeds.png" width="32"> | Clump of Weeds | Folders |
 
-<img width="209" alt="Screen Shot 2020-10-02 at 6 08 57 PM" src="https://user-images.githubusercontent.com/7905522/94979891-6e9b8680-04da-11eb-8bd6-5ff0a63ad09f.png">
+### Not yet mapped
 
-### Winter mode:
+These common file types currently use the default Green Leaf — future icon assignments welcome!
 
-<img width="233" alt="Screen Shot 2020-10-27 at 9 45 19 PM" src="https://user-images.githubusercontent.com/7905522/97392155-5121c880-189e-11eb-86de-7c1886be767e.png">
-
-
-### Download at https://marketplace.visualstudio.com/items?itemName=klyap.vscode-stardew-icon-theme
-<img width="739" alt="Screen Shot 2020-10-02 at 4 14 12 PM" src="https://user-images.githubusercontent.com/7905522/94976903-52dcb400-04cb-11eb-8d84-04c2094ea725.png">
+`.txt`, `.go`, `.java`, `.c`, `.cpp`, `.h`, `.rs`, `.swift`, `.php`, `.sql`, `.toml`, `.xml`, `.vue`, `.svelte`, `.scss`, `.sass`, `.less`, `.tf`, `.tfvars`, `.lua`, `.kt`, `.r`, `.csv`
 
 ## Development
 
-This extension uses image files directly from the `icons` folder in `icons.json`.
+This extension uses image files from `icons/acnh/` mapped in `icons.json`.
 
-Open this repo in VSCode and hit F5 to test it out.
+Open this repo in VS Code and press F5 to test.
 
-You will need to run to develop:
-```yarn install```
-```yarn install -g vsce```
+### Prerequisites
 
-### To publish a new version to the VS Code Extension Marketplace
-Update the version number in package.json and run:
-```vsce publish```
+```
+npm install -g @vscode/vsce
+```
 
-### To package for sharing with others
-Run this command to generate a VSIX file:
- ```vsce package```
-To load this VSIX extension into your VS Code IDE, replacing the file name with the generated one:
-```code --install-extension vscode-stardew-icon-theme-0.0.3.vsix```
+### Publish to VS Code Marketplace
+
+Update the version in `package.json`, then:
+
+```
+vsce publish
+```
+
+### Package for sharing
+
+```
+vsce package
+```
+
+Install the generated `.vsix`:
+
+```
+code --install-extension vscode-acnh-icon-theme-0.0.8.vsix
+```
 
 ## Resources
 
-Icons from https://stardewvalleywiki.com/Stardew_Valley_Wiki
-
-
+Icons inspired by Animal Crossing: New Horizons by Nintendo.
