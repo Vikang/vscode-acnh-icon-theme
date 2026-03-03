@@ -1,70 +1,123 @@
 {
   "iconDefinitions": {
     "_file": {
-      "iconPath": "icons/Starfruit.png"
+      "iconPath": "icons/acnh/Green_Leaf.png"
     },
     "_css": {
-      "iconPath": "icons/Strawberry.png"
+      "iconPath": "icons/acnh/Wand.png"
     },
     "_html": {
-      "iconPath": "icons/Red_Mushroom.png"
+      "iconPath": "icons/acnh/Coral.png"
     },
     "_javascript": {
-      "iconPath": "icons/Cat_1.png"
+      "iconPath": "icons/acnh/Recipe.png"
     },
     "_javascript_test": {
-      "iconPath": "icons/Cat.png"
+      "iconPath": "icons/acnh/Nugget_Gold.png"
     },
     "_json": {
-      "iconPath": "icons/Sunflower.png"
+      "iconPath": "icons/acnh/Money_Bag.png"
     },
     "_lock": {
-      "iconPath": "icons/Key.png"
+      "iconPath": "icons/acnh/Pitfall_Seed.png"
     },
     "_eslint": {
-      "iconPath": "icons/Dandelion.png"
+      "iconPath": "icons/acnh/Fishing_Rod.png"
     },
     "_prettier": {
-      "iconPath": "icons/Sweet_Pea.png"
+      "iconPath": "icons/acnh/Cosmos_Pink.png"
     },
     "_git": {
-      "iconPath": "icons/Parsnip.png"
+      "iconPath": "icons/acnh/Nook_Miles_Ticket.png"
     },
     "_log": {
-      "iconPath": "icons/Wood.png"
+      "iconPath": "icons/acnh/Recipe_Bottle.png"
     },
     "_image": {
-      "iconPath": "icons/Summer_Seeds.png"
+      "iconPath": "icons/acnh/Peach.png"
     },
     "_markdown": {
-      "iconPath": "icons/Book.png"
+      "iconPath": "icons/acnh/Book_1.png"
     },
     "_babel": {
-      "iconPath": "icons/Scroll.png"
+      "iconPath": "icons/acnh/Wasp_Nest.png"
     },
     "_license": {
-      "iconPath": "icons/Scroll.png"
+      "iconPath": "icons/acnh/Tree_Branch.png"
     },
     "_package": {
-      "iconPath": "icons/Bundle_Yellow.png"
+      "iconPath": "icons/acnh/Present_Red.png"
     },
     "_graphql": {
-      "iconPath": "icons/Grape.png"
+      "iconPath": "icons/acnh/Spider.png"
     },
     "_cerberus": {
-      "iconPath": "icons/Dog_3.png"
+      "iconPath": "icons/acnh/Pale_Chub.png"
     },
     "_jest": {
-      "iconPath": "icons/Blobfish.png"
+      "iconPath": "icons/acnh/Net.png"
     },
     "_apollo": {
-      "iconPath": "icons/Apple.png"
+      "iconPath": "icons/acnh/Star.png"
     },
     "_bazel": {
-      "iconPath": "icons/Tea_Bush.png"
+      "iconPath": "icons/acnh/Axe_Iron.png"
+    },
+    "_fusion": {
+      "iconPath": "icons/acnh/Hyacinths_Purple.png"
+    },
+    "_typescript": {
+      "iconPath": "icons/acnh/Fossil.png"
+    },
+    "_tslint": {
+      "iconPath": "icons/acnh/Fishing_Rod.png"
+    },
+    "_folder": {
+      "iconPath": "icons/acnh/Clump_of_Weeds.png"
+    },
+    "_proto": {
+      "iconPath": "icons/acnh/Fossil.png"
+    },
+    "_thrift": {
+      "iconPath": "icons/acnh/Pale_Chub.png"
+    },
+    "_flow": {
+      "iconPath": "icons/acnh/Recipe_Bottle.png"
+    },
+    "_visualstudiocode": {
+      "iconPath": "icons/acnh/Axe_Iron.png"
+    },
+    "_python": {
+      "iconPath": "icons/acnh/Turnips.png"
+    },
+    "_ruby": {
+      "iconPath": "icons/acnh/Cherry.png"
+    },
+    "_yaml": {
+      "iconPath": "icons/acnh/Book_1.png"
+    },
+    "_docker": {
+      "iconPath": "icons/acnh/Egg_Wood.png"
+    },
+    "_shell": {
+      "iconPath": "icons/acnh/Axe_Iron.png"
+    },
+    "_env": {
+      "iconPath": "icons/acnh/Pitfall_Seed.png"
+    },
+    "_test": {
+      "iconPath": "icons/acnh/Nugget_Gold.png"
+    },
+    "_config": {
+      "iconPath": "icons/acnh/Coral.png"
+    },
+    "_readme": {
+      "iconPath": "icons/acnh/Nook_Miles_Ticket.png"
     }
   },
   "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder",
   "fileExtensions": {
     "js": "_javascript",
     "jsx": "_javascript",
@@ -78,11 +131,30 @@
     "node.js": "_javascript_test",
     "browser.js": "_javascript_test",
     "md": "_markdown",
-    "grapqhl": "_graphql",
+    "graphql": "_graphql",
     "proto": "_proto",
     "thrift": "_thrift",
     "git": "_git",
-    "snap": "_javascript_test"
+    "snap": "_javascript_test",
+    "py": "_python",
+    "pyw": "_python",
+    "rb": "_ruby",
+    "erb": "_ruby",
+    "gemspec": "_ruby",
+    "yml": "_yaml",
+    "yaml": "_yaml",
+    "sh": "_shell",
+    "bash": "_shell",
+    "zsh": "_shell",
+    "env": "_env",
+    "ts": "_typescript",
+    "tsx": "_typescript",
+    "css": "_css",
+    "html": "_html",
+    "htm": "_html",
+    "json": "_json",
+    "lock": "_lock",
+    "log": "_log"
   },
   "fileNames": {
     "license": "_license",
@@ -137,8 +209,40 @@
     "jest.config.js": "_jest",
     "jest.integration.config.js": "_jest",
     "apollo.config.js": "_apollo",
-    ".gitignore": "_git",
-    ".graphqlconfig": "_graphql"
+    ".gitignore": "_babel",
+    ".graphqlconfig": "_graphql",
+    "Dockerfile": "_docker",
+    "dockerfile": "_docker",
+    "docker-compose.yml": "_docker",
+    "docker-compose.yaml": "_docker",
+    "docker-compose.override.yml": "_docker",
+    ".dockerignore": "_docker",
+    "Gemfile": "_ruby",
+    "Gemfile.lock": "_lock",
+    "Rakefile": "_ruby",
+    ".env": "_env",
+    ".env.local": "_env",
+    ".env.development": "_env",
+    ".env.production": "_env",
+    ".env.test": "_env",
+    ".env.example": "_env",
+    "README.md": "_readme",
+    "readme.md": "_readme",
+    "README": "_readme",
+    "readme": "_readme",
+    ".editorconfig": "_config",
+    "webpack.config.js": "_config",
+    "webpack.config.ts": "_config",
+    "rollup.config.js": "_config",
+    "rollup.config.ts": "_config",
+    "vite.config.js": "_config",
+    "vite.config.ts": "_config",
+    "vitest.config.js": "_jest",
+    "vitest.config.ts": "_jest",
+    "pnpm-lock.yaml": "_lock",
+    ".bashrc": "_shell",
+    ".zshrc": "_shell",
+    ".bash_profile": "_shell"
   },
   "languageIds": {
     "git": "_git",
@@ -146,6 +250,12 @@
     "typescript": "_typescript",
     "css": "_css",
     "html": "_html",
-    "json": "_json"
+    "json": "_json",
+    "python": "_python",
+    "ruby": "_ruby",
+    "yaml": "_yaml",
+    "dockerfile": "_docker",
+    "shellscript": "_shell",
+    "markdown": "_markdown"
   }
 }
